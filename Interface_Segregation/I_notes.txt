@@ -1,0 +1,13 @@
+Problem:
+    Ta có danh sách các vị thần Olympus:
+    - Zeus: thần của bầu trời, sở hữu năng lượng sấm
+    - Poseidon: thần của biển cả, sở hữu năng lượng nước
+    - Hades: thần của địa ngục, sở hửu năng lượng lửa
+
+    Nếu ta khai báo một lớp Olympus với sức mạnh quyền năng (bao gồm 
+    đủ loại phép thuật) thì sẽ gây dư thừa (vì một vị thần chỉ sở hữu
+    một số loại phép thuật nhất định, các loại phép thuật khác xem như
+    bằng 0)
+
+Solving:
+    Ta sẽ tách class Olympus quyền năng thành các class thần nhỏ hơn

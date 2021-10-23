@@ -1,0 +1,12 @@
+Problem:
+    Ta có class FileReader dùng để đọc dữ liệu từ file; class ConsolePrinter để
+    in dữ liệu ra màn hình console; class Summary để kết hợp việc đọc và in dữ
+    liệu với data source cho trước. Tuy nhiên trong cách cài đặt này, module Summary
+    bị phụ thuộc hoàn toàn vào cách đọc dữ liệu (đọc từ file) và cách in dữ liệu
+    (in ra màn hình). Sau này khi ta có nhu cầu thay đổi công nghệ đọc và in thì ta
+    lại phải modify lại class Summary. Điều này mâu thuẫn quy tắc D và đồng thời cả quy 
+    tắc S
+
+Solving:
+    Tách riêng việc in dữ liệu và đọc dữ liệu ra thành hai module độc lập. 
+    

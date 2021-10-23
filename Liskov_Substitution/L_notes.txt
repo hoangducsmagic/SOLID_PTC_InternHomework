@@ -1,0 +1,10 @@
+Problem:
+    Ta có danh sách các nhân vật (unit) bao gồm Swordman và HealthGod.
+    Tuy nhiên, HealthGod là một phù thủy chỉ có khả năng hỗ trợ các nhân
+    vật khác chứ không thể chiến đấu (không có method attack), tuy nhiên 
+    HealthGod cũng là 1 unit nên việc kế thừa Unit cũng không hẳn là sai :))
+
+Solving:
+    Ta sẽ chia nhỏ lớp Unit thành 2 lớp là Solider(chiến binh) và 
+    Wizard (phù thủy). Các chiến binh thì có thể chiến đấu (attack), còn 
+    các phù thủy thì có thể hỗ trợ (support)

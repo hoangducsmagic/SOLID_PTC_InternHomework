@@ -1,0 +1,20 @@
+Bài toán mô hình trại lính (barrack). Mỗi trại sẽ có 3 loại lính khác nhau
+(Swordman, Pikeman, Archer). Mỗi loại lính có một công thức tính giá trị
+khác nhau (price). Mỗi đối tượng lính được khởi tạo với một chỉ số sức
+mạnh (strength) và giá trị của lính được tính dựa vào chỉ số sức mạnh và 
+loại lính. Giá trị của một trại lính được đánh giá bằng tổng giá trị của
+các binh lính trong trại.
+
+Problem:
+    Việc thực hiện tính toán giá trị của các đối tượng lính được cài đặt
+    ngay trong class trại lính. Như vậy mỗi khi muốn thêm loại lính mới
+    hoặc thay đổi công thức tính giá trị của một loại lính nào đó, ta phải
+    modify lại class trại lính
+
+Solving:
+    Cho các loại lính (Swordman, Pikeman, Archer) kế thừa từ một lớp lính
+    tổng quát (Solider) và hàm tính giá trị cho từng loại lính được kế thừa
+    abstract lại. Như vậy khi cần thay đổi công thức tính giá trị của một
+    loại lính nào đó, ta chỉ cần modify lại class lính cần chỉnh sửa. Cũng
+    như khi muốn thêm loại lính mới, ta chỉ việc cho class mới kế thừa lại
+    class Solider.

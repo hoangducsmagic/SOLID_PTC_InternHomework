@@ -1,0 +1,9 @@
+Problem:
+    class FileReader dùng để đọc dữ liệu. Tuy nhiên trong class lại tích hợp
+    cả việc in dữ liệu (ra màn hình console). Điều này sẽ gây khó khăn về sau 
+    khi ta muốn data ra với hình thức khác (xuất report bằng html chẳng hạn).
+
+Solving:
+    Tách riêng việc in dữ liệu ra thành một class khác. Sau đó dùng 1 class 
+    trung gian để composite cả reader và printer vào 
+    
